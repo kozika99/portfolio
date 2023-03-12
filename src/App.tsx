@@ -1,15 +1,21 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/header";
+import Home from "./components/home";
+import About from "./components/about";
+import Work from "./components/work";
+import Projects from "./components/projects";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
-
   return (
-    <div className="App">
-      <h1>Tamás Kozák</h1>
-      <p className="portfolio">
-        Portfolio
-      </p>
-    </div>
-  )
+    <>
+      <Header />
+      <Home />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
