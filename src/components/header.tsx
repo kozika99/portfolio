@@ -1,21 +1,18 @@
-import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-
-const Header = () => {
+export default function Header() {
   return (
-    <header className="flex justify-between px-32 py-10 bg-primary text-black fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
+    <header id="header" className="sticky top-0 flex justify-between py-8">
+      <a href="/#home" className="logo text-2xl font-bold text-accent">
         TK
       </a>
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
-        <ul className="flex">
+        <ul className="flex flex-row justify-end gap-10">
           <li>
             <a href="/#about">About</a>
           </li>
           <li>
-            <a href="/#work">Work</a>
+            <a href="/#experience">Experience</a>
           </li>
           <li>
             <a href="/#projects">Projects</a>
@@ -24,7 +21,11 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume -link" target="_blank">
+            <a
+              className="text-red-700"
+              href="/src/assets/Tamás_Kozák_Resume.pdf"
+              target="_blank"
+            >
               Resume
             </a>
           </li>
@@ -32,6 +33,4 @@ const Header = () => {
       </nav>
     </header>
   );
-};
-
-export default Header;
+}
