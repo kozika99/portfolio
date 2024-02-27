@@ -23,7 +23,7 @@ export default function Header() {
           <li>
             <a
               className="text-red-700"
-              href="/src/assets/Tamás_Kozák_Resume.pdf"
+              href="../assets/Tamás_Kozák_Resume.pdf"
               target="_blank"
             >
               Resume

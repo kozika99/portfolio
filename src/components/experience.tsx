@@ -1,11 +1,19 @@
 export default function Experience() {
   const jobs = [
     {
-      title: "Internship, DAF Trucks",
-      date: "02/2023 – present",
-      location: "Eindhoven, Netherlands",
+      title: "Graduation Internship, JDE",
+      date: "09/2023 – 01/2024",
+      location: "Utrecht, The Netherlands",
       description: [
-        "Investigate and migrate SharePoint workflows to Power Automate.",
+        "Developed a machine learning model to predict acrylamide levels in coffee.",
+      ],
+    },
+    {
+      title: "Internship, DAF Trucks",
+      date: "02/2023 – 06/2023",
+      location: "Eindhoven, The Netherlands",
+      description: [
+        "Investigated and migrated SharePoint workflows to Power Automate.",
       ],
     },
     {

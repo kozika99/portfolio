@@ -5,9 +5,8 @@ export default function About() {
         <div className="w-full md:w-7/12">
           <h2 className="text-3xl font-bold mb-5">About</h2>
           <p className="pt-3 pb-6">
-            I am studying Information Technology in Venlo, currently looking for{" "}
-            <br></br> internship opportunities in the Netherlands starting from
-            September 2023.{" "}
+            I have a Bachelor's degree Information Technology and currently
+            looking for <br></br> job opportunities in the Netherlands.{" "}
           </p>
           <p className="pt-1 pb-12">
             I have worked on numerous projects throughout my education, both for

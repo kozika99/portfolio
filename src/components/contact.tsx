@@ -35,7 +35,7 @@ export default function Contact() {
       <section id="footer">
         <footer className="py-4 pb-8">
           <span className="pt-4 grid place-items-center grid-cols-1">
-            Tamás Kozák ⏤ 2023
+            Tamás Kozák ⏤ 2024
           </span>
         </footer>
       </section>
