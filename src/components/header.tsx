@@ -1,3 +1,5 @@
+import resumePDF from "../assets/Tamás_Kozák_Resume.pdf";
+
 export default function Header() {
   return (
     <header id="header" className="sticky top-0 flex justify-between py-8">
@@ -21,11 +23,7 @@ export default function Header() {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a
-              className="text-red-700"
-              href="../assets/Tamás_Kozák_Resume.pdf"
-              target="_blank"
-            >
+            <a className="text-red-700" href={resumePDF} target="_blank">
               Resume
             </a>
           </li>
