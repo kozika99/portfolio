@@ -19,7 +19,7 @@ export default function Projects() {
     {
       title: "Personal Website",
       description: "Portfolio website developed using React and Tailwind.",
-      technologies: ["React", "TailwindCSS", "Firebase"],
+      technologies: ["React", "TailwindCSS"],
     },
   ];
 
